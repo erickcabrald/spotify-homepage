@@ -1,0 +1,146 @@
+/* PLAYLIST */
+.playlist-container {
+    position: fixed;
+    margin-left: 380px;
+    margin-top: 120px;
+    position: fixed;
+    height: 68vh;
+    padding-top: 16px;
+    border-radius: 10px;
+    background-color: #121212;
+    width: 69% ;
+  }
+  
+  .playlist2 {
+    margin: 24px;
+    color: var(--text-base-light);
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 48px;
+  }
+  
+ 
+  .playlist .session {
+    color: var(--text-base-light);
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  /* SCROLL */
+  .offer__scroll-container {
+    max-height: 55vh;
+    max-width: 125vh;
+    margin: 24px;
+    overflow-y: auto;
+    
+    
+  }
+  
+  .offer__scroll-container::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  .offer__scroll-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  /* FIM SCROLL */
+  
+  .offer__list-item {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+    gap: 16px;
+    margin-bottom: 16px;
+    
+  
+    /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
+    display: grid;  /* define o modelo de layout do elemento como uma grade */
+    gap: 16px;
+    grid-gap: 32px;  /* não é usado mais */
+    margin: 0 auto;
+  }
+  
+  /* POSITION */
+  /* principais são static, relative, absolute, fixed, e sticky. */
+  
+  .cards {
+    position: relative; /* relative:
+                            Comportamento em relação a si mesmo: O elemento é posicionado em relação à sua posição original.
+                           Mantém espaço original: O espaço original que o elemento ocuparia não é alterado, mas você pode movê-lo com top, right, bottom ou left. */
+    
+    color: #ffff;
+    width: 220px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .cards span {
+    padding: 16px;
+    position: absolute;
+    /* absolute:
+                            Comportamento em relação ao ancestral posicionado mais próximo ou ao elemento raiz (se nenhum ancestral estiver posicionado).
+                            Remove do fluxo normal: O elemento é removido do fluxo normal do documento, o que significa que outros elementos agem como se o elemento não estivesse presente. */
+    color: var(--text-base-light);
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  /* COLOR CARDS */
+  .card1 {
+    background-color: rgb(0, 100, 80);
+  }
+  .card2 {
+    background-color: rgb(132, 0, 231);
+  }
+  .card3 {
+    background: rgb(30, 50, 100);
+  }
+  .card4 {
+    background: rgb(140, 25, 50);
+  }
+  .card5 {
+    background: rgb(232, 17, 91);
+  }
+  .card6 {
+    background: rgb(83, 122, 161);
+  }
+  .card7 {
+    background: rgb(142, 102, 172);
+  }
+  .card8 {
+    background: rgb(20, 138, 8);
+  }
+  .card9 {
+    background: rgb(30, 50, 100);
+  }
+  .card10 {
+    background: rgb(233, 20, 41);
+  }
+  .card11 {
+    background: rgb(80, 55, 80);
+  }
+  .card12 {
+    background: rgb(216, 64, 0);
+  }
+  .card13 {
+    background: rgb(186, 93, 7);
+  }
+  .card14 {
+    background: rgb(0, 30, 80);
+  }
+  .card15 {
+    background: rgb(60, 30, 80);
+  }
+  /* FIM COLOR CARDS */
+  
+  .offer__list-item img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 107px;
+    transform: rotate(25deg) translate(18%, -2%);
+  }

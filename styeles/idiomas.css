@@ -1,0 +1,28 @@
+/*DIV QUE ENGLOBA OS IDIOMAS*/
+.idiomass{
+    display: none;
+    position: fixed;
+    background-color: #131313;
+    width: 350px;
+    bottom: 90px;
+    margin-left: 10px;
+    border-radius: 8px;
+
+}
+
+
+.Language1{
+    margin: 15px;
+}
+
+/*BOTÕES DE IDIOMAS*/
+.Language1 button{
+    background: transparent;
+    color: #ffff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: solid 1px #ffff;
+    cursor: pointer;
+}

@@ -1,0 +1,236 @@
+body{
+    background-color: #000;
+    font-family: "DM sans", sans-serif;
+    
+}
+
+
+/* BARRA LATERAL DO TOP*/
+ .side_bar-top{
+    position: fixed;
+    background: #131313;
+    color: #ffff;
+    border-radius: 8px;
+    margin: 10px;
+    height: 150px;
+    width: 350px;
+}
+
+
+.side_bar .side_bar-top ul li {
+    margin: 0px 12px;
+    margin-bottom: 30px;
+}
+
+ .side_bar-top ul li a{
+   color: #b3b3b3;
+   font-size: 16px;
+   font-weight: 900;
+   font-family: "DM sans", sans-serif;
+   text-decoration: none;
+}
+.side_bar-top ul li a .fa-solid{
+    font-size: 16px;
+}
+
+.side_bar-top ul li a span{
+    margin-left: 8px;
+}
+
+.logo img{
+    width: 80px;
+    margin: 18px;
+}
+/*FIM DA BARRA LATERAL DO TOPO*/
+
+/*BARRA LATERAL DE BAIXO*/
+
+.side_bar-bottom{ 
+    
+    position: fixed         ;
+    background: #131313;
+    border-radius: 8px;
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+    margin-top: 170px;
+
+    
+}
+.side_bar-bottom-content{
+    position: fixed;
+}
+
+
+.bliblioteca {
+    margin:20px 18px; 
+}
+
+.bliblioteca a{
+    
+    color: #b3b3b3;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+.side_bar-bottom .bliblioteca a .fa-plus{
+    font-weight: 100;
+    margin-left: 7.5rem;
+}
+
+.side_bar-bottom .bliblioteca a .fa-book{
+    margin-right: 10px;
+}
+
+.playlist{
+    display: flex;
+    background: #242424;
+    padding: 20px;
+    margin: 20px 8px;
+    border-radius: 8px;
+    color: #ffff;
+    
+}
+
+.text{
+    margin-bottom: 10px;
+    color: #ffff;
+}
+
+.text1{
+    font-weight: 600;
+    font-size: 17px;
+}
+.text2{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.playlist-content button{
+    margin-top: 25px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #000;
+    font-weight: 600;
+    align-items: center;
+    text-decoration: none;
+    border: solid 1px transparent;
+    transition: .2s;
+}
+.playlist-content button:hover{
+    transform: scale(1.05);
+}
+
+.cookies{
+    margin: 5px 1.2rem;
+    font-size: 13px;
+    color: #ffff;
+}
+.cookies:hover{
+    text-decoration: underline;
+}
+
+.language{
+    margin: 1.8rem 0 1.2rem 1.2rem;
+}
+ .buttonLanguage{
+    background: transparent;
+    color: #ffff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: solid 1px #ffff;
+    cursor: pointer;
+}
+/*FIM DA BARRA LATERAL DE BAIXO*/
+
+
+
+ 
+
+/*BARRA DE PESQUISA*/
+.search{
+    position: fixed;
+    display: flex;
+    background: #131313;
+    width: 66.3%;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 380px;
+    margin-top: 10px;
+}
+
+.arrow{
+    margin-top: 16px;
+}
+.fa-chevron-left, .fa-chevron-right{
+    color: #fff;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.search-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 364px;
+    height: 48px;
+    margin-left: 90px;
+    background-color: #242424;
+    border-radius: 500px;
+    border: 1px solid transparent;
+  }
+
+  
+  .header__search img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+  }
+  
+  .header__search input {
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0 12px;
+    color: #fff;
+    text-overflow: ellipsis;
+    outline: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+.inscrevase{
+    margin-top: 5px;
+}
+
+.inscreva-se{
+    color: #ffff;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 180px;
+}
+.enter{
+    background: #ffff;
+    color: #000;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: solid 1px transparent;
+    border-radius: 30px;
+    margin-left: 30px;
+    transition: 0.2s;
+
+}
+
+.enter:hover{
+    transform: scale(1.05);
+}
+/*FIM DA BARRA DE PESQUISA*/
+
